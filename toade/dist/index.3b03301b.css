@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.form {
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100vh;
+  height: 506px;
+  display: flex;
+}
+
+.first-wrapper {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 605px;
+  display: flex;
+}
+
+.input-wrapper, .bigtext {
+  flex-direction: column;
+  display: flex;
+}
+
+.little-input {
+  width: 261.62px;
+  height: 38px;
+}
+
+.bigtext {
+  width: 577.58px;
+  height: 142px;
+}
+
+/*# sourceMappingURL=index.3b03301b.css.map */

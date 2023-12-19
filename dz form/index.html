@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="high-wrapper">
+        <div class="info">Данные получателя</div>
+        <div>
+          <input
+            type="text"
+            placeholder="Фамилия"
+            name="surname"
+            class="form-item high"
+          />
+          <input
+            type="text"
+            placeholder="Имя"
+            name="name"
+            class="form-item high"
+          />
+          <input
+            type="text"
+            placeholder="Отчество"
+            name="patronymic"
+            class="form-item high"
+          />
+          <span class="tel-wrapper"
+            ><input
+              type="tel"
+              placeholder="Номер телефона"
+              name="tel"
+              id="user-tel"
+              pattern="+375[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              class="form-item tel"
+            />
+            <label for="user-tel" class="text little"
+              >По этому номеру телефона мы с вяжемся с вами для подтверждения
+              заказа</label
+            ></span
+          >
+        </div>
+        <div class="email-block">
+          <input
+            type="email"
+            name="email"
+            id="user-email"
+            placeholder="E-mail"
+            class="user-email"
+          />
+          <label for="user-email" class="text little"
+            >На эту почту вам придет письмо с составом заказа, а так же
+            трэк-номер для его отслеживания</label
+          >
+        </div>
+        <div>
+          <label for="user-subscribe" class="container"
+            ><input type="checkbox" name="subscribe" id="user-subscribe" />
+            <span class="checkmark"></span>
+            <label for="user-subscribe" class="text subscribe"
+              >Подписаться на рассылку новинок и акций</label
+            ></label
+          >
+        </div>
+      </div>
+      <div>
+        <div class="info">Способ оплаты</div>
+        <div class="radio-container">
+          <label for="nal-card" class="container-second">
+            <input type="radio" name="answer" id="nal-card" />
+            <span class="checkmark2"></span>
+            <label for="nal-card" class="text circle"
+              >Оплата при получении наличными или картой</label
+            ></label
+          >
+          <label for="online" class="container-second">
+            <input type="radio" name="answer" id="online" />
+            <span class="checkmark2"></span>
+            <label for="online" class="text circle"
+              >Оплата банковской картой онлайн</label
+            ></label
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
