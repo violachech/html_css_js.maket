@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap");
+
+$color-text: #ffffff;
+body {
+  margin: 0;
+}
+.main-wrapper {
+  height: 1283px;
+  width: 100%;
+  background: url("/resources/back2.png"), url("/resources/back.png");
+  object-fit: cover;
+}
+
+.big-text {
+  width: 481px;
+  height: 143px;
+  font-family: "Lato", sans-serif;
+  font-size: 110px;
+  font-weight: 500;
+  line-height: 143px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: $color-text;
+}
+
+.little-text {
+  width: 330px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: $color-text;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+}
+
+.wrapper {
+  height: 1150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.text-wrapper {
+  width: 920px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocks-wrapper {
+  width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bigger-wrapper {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin blocks {
+  width: 250px;
+  height: 260px;
+  background: url("/resources/blocks-back.png");
+  object-fit: cover;
+  background-position: center;
+}
+
+.block {
+  @include blocks();
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.lit-text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bigger-text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 180px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bigger-text.a {
+  width: 201px;
+}
+
+.bigger-text.b {
+  width: 210;
+}
+
+.bigger-text.c {
+  width: 211px;
+}
+
+.bigger-text.d {
+  width: 200px;
+}
+
+@media (max-width: 1008px) {
+  .big-text {
+    font-size: 80px;
+  }
+  .little-text {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 999px) and (orientation: portrait) {
+  .wrapper {
+    height: max-content;
+  }
+  .main-wrapper {
+    background: url("/resources/back2.png"), url("/resources/back.png");
+    object-fit: cover;
+    height: max-content;
+  }
+  .big-text {
+    font-size: 60px;
+  }
+  .little-text {
+    font-size: 15px;
+  }
+  .blocks-wrapper {
+    justify-content: space-evenly;
+  }
+  .text-wrapper {
+    width: 600px;
+  }
+}
+
+@media (max-width: 838px) and (orientation: portrait) {
+  .big-text {
+    font-size: 40px;
+  }
+  .text-wrapper {
+    width: 600px;
+  }
+}
+@media (max-width: 838px) and (orientation: portrait) {
+  .text-wrapper {
+    width: 400px;
+  }
+}
