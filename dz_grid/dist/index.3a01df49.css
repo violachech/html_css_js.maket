@@ -1,0 +1,79 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap";
+body {
+  margin: 0;
+}
+
+.wrapper {
+  grid-area: pic;
+  justify-self: self-start;
+  width: 645px;
+  height: 378px;
+  display: grid;
+  position: relative;
+}
+
+.main-wrapper {
+  grid-template: "pic cont" 378px
+  / 50% 50%;
+  justify-items: center;
+  width: 1572px;
+  height: 378px;
+  display: grid;
+}
+
+.line {
+  translate: 0 120px;
+}
+
+.man-img {
+  position: absolute;
+  bottom: 0;
+  left: 278px;
+}
+
+.wrapper-for-content {
+  flex-direction: column;
+  grid-area: cont;
+  justify-content: space-between;
+  width: 455.03px;
+  height: 320px;
+  display: flex;
+}
+
+.text {
+  letter-spacing: 0;
+  justify-content: center;
+  align-items: flex-end;
+  width: 396.99px;
+  height: 52px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  display: flex;
+}
+
+.sites {
+  justify-content: center;
+  align-items: flex-end;
+  height: 140px;
+  display: flex;
+}
+
+.text-wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+.like-im {
+  width: 103.41px;
+  height: 85.33px;
+  translate: 15px 30px;
+}
+
+.im-wrapper {
+  justify-content: flex-end;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
