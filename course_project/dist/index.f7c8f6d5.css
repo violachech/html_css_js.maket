@@ -1,0 +1,149 @@
+@media (width <= 1919px) {
+  .wrapper-first, .wrapper-second, .fifth-block, .main-wrapper, .seven-block, .last-wrap, .footer, .wrap {
+    width: 100vw;
+  }
+}
+
+@media (width <= 1879px) {
+  .photos {
+    justify-content: center;
+  }
+
+  .wrapper-text-info {
+    width: 1250px;
+  }
+
+  .wrap-big-text {
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .wrap-big-text .wrap1, .wrap-big-text .wrap2, .wrap-big-text .wrap3, .wrap-big-text .wrap4 {
+    margin: 10px 30px;
+  }
+
+  .or-arrow {
+    left: 80vw;
+  }
+
+  .infinity {
+    width: 75vw;
+  }
+}
+
+@media (width <= 1648px) {
+  .or-arrow {
+    display: none;
+  }
+
+  .model1, .model2, .model3, .unpic1, .unpic2, .unpic3, .mod1black, .mod2black, .mod3black {
+    height: 450px;
+  }
+
+  .top-text, .top-text.second, .top-text.third, .top-text.fourth {
+    font-size: 20px;
+  }
+
+  .main-info.third, .main-info {
+    width: 720px;
+    font-size: 15px;
+  }
+
+  .about-photoshots, .about-photoshots.third {
+    width: 740px;
+  }
+
+  .wrapper-text-info {
+    justify-content: center;
+  }
+}
+
+@media (width <= 1488px) {
+  .man-img {
+    left: 100px;
+  }
+}
+
+@media (width <= 1345px) {
+  .wrap {
+    width: 100vw;
+  }
+}
+
+@media (width <= 1339px) {
+  .head-section {
+    justify-content: space-between;
+    width: 1000px;
+  }
+
+  .big-text {
+    font-size: 30px;
+  }
+
+  .wrapper-info, .wrap-inf.inf1 {
+    width: 500px;
+  }
+
+  .wrap-inf.inf1, .wrap-inf {
+    font-size: 12px;
+  }
+
+  .left-block, .big-text {
+    width: 500px;
+  }
+
+  .im-model1, .im-model {
+    width: 380px;
+    height: 391px;
+  }
+
+  .content-wrapper {
+    width: 900px;
+  }
+}
+
+@media (width <= 1142px) {
+  .line {
+    width: 500px;
+  }
+
+  .man-img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media (width <= 1299px) {
+  .model1, .model2, .model3, .unpic1, .unpic2, .unpic3, .mod1black, .mod2black, .mod3black {
+    height: 400px;
+  }
+
+  .top-text, .top-text.second, .top-text.third, .top-text.fourth {
+    font-size: 17px;
+  }
+
+  .main-info.third, .main-info {
+    width: 640px;
+    font-size: 15px;
+  }
+
+  .about-photoshots, .about-photoshots.third {
+    width: 650px;
+  }
+
+  .wrapper-text-info {
+    justify-content: center;
+  }
+
+  .form-wrapper {
+    left: 25%;
+  }
+}
+
+@media (width <= 1239px) {
+  .form-wrapper {
+    left: 20%;
+  }
+}
+
+/*# sourceMappingURL=index.f7c8f6d5.css.map */
